@@ -1,0 +1,27 @@
+li {
+    color: red;
+}
+
+.class1 {
+    color: blue
+}
+
+.class2 {
+    font-size: 200%;
+}
+
+/*  Specificity with sibling classes */
+.class1.class2 {
+    color: green;
+    font-size: 150%;
+}
+
+/* Specificity with hierarchy */
+ol .class1 {
+    font-family: monospace;
+}
+
+/* Specificity with hierarchy and sibling classes */
+ol .class1.class2 {
+    font-family: cursive;
+}
