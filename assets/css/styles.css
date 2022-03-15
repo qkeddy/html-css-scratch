@@ -25,3 +25,13 @@ ol .class1 {
 ol .class1.class2 {
     font-family: cursive;
 }
+
+/* The vw and vh units, which stand for viewport width and viewport height, are the last units that we will go over. No matter where you are, inside a child or in a grand grandchild, the vw and vh will always be the width and height of the viewport. The vw and vh don’t care about the size of its parent.
+ */
+div {
+    width: 50%;
+}
+
+div div {
+    width: 100vw;
+}
